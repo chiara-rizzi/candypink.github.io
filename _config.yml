@@ -1,3 +1,4 @@
+
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -23,6 +24,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  candypink
+
+header_pages:
+  - blog.md
+  - portfolio.md
+  - about.md
 
 # Build settings
 markdown: kramdown
