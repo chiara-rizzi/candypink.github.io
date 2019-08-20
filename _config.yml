@@ -43,6 +43,11 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+
+collections:
+  projects:
+
+
 navigation:
   - name: Blog 
     link: /blog.html
