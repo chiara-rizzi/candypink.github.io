@@ -17,19 +17,20 @@
 title: A CandyPink Blog
 email: candypink@outlook.it
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A CandyPink blog is a space for me to share my learning path in data science 
+  and write posts on basically anything I fancy. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
+twitter_username: jekyllrb
 github_username:  candypink
 
 # Build settings
 markdown: kramdown
 remote_theme: candypink/jekyll-theme-candypink
+# theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -50,11 +51,14 @@ collections:
 
 navigation:
   - name: Blog 
-    link: /blog.html
+    link: /blog/index.html
   - name: Portfolio
     link: /portfolio.html
   - name: About
     link: /about.html
 
+
+paginate: 3
+paginate_path: "/blog/page:num/"
 
 
