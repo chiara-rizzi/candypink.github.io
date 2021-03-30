@@ -1,6 +1,6 @@
 ---
 title: Trends in Italian Weddings
-link: https://candypink.github.io/ItalianWeddings/
+link: https://cookiepink.github.io/ItalianWeddings/
 tags: scraping
 ---
 
